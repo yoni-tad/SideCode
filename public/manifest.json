@@ -1,0 +1,17 @@
+{
+    "name": "Side Code",
+    "description": "Some description here",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["sidePanel", "tabs", "storage"],
+    "background": {
+      "service_worker": "service-worker.js"
+    },
+    "side_panel": {
+      "default_path": "index.html"
+    },
+    "action": {
+      "default_icon": "logo.png"
+    }
+  }
+  
